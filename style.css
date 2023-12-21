@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:lightgray;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 1000px;
+    background: white;
+    border-radius: 12px;
+}
+img{
+    height:300px; 
+    width: 450px;   
+}
+.imga{   
+    border-right: 1px solid gray;
+}
+.loginpart{
+    height:300px;
+    width: 450px;    
+}
+.loginpart h4{
+    font-size: 20px;
+   margin-bottom: 20px;   
+}
+input{
+    height: 40px;
+    width: 400px;    
+    margin: 15px;
+    border-radius: 22px;
+    border: 0.8px solid gray;
+    outline: none;
+   
+}
+.email{
+    position: relative;
+}
+.email i{
+    position: absolute;
+    right: 40px;
+    top: 40%;
+    transform: translate(-50%);
+}
+.passwd{
+    position: relative;
+}
+.passwd i{
+    position: absolute;
+    top:40%;
+    transform: translate(-50%);
+    right: 40px;    
+}
+button{
+    height: 40px;
+    width: 400px;
+    margin: 15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    background-color: rgb(91, 37, 190);
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+p a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 600;
+}
+p.terms{
+    margin-top: 50px;
+}
